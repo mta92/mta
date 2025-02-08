@@ -29,6 +29,6 @@ resource "azurerm_storage_account" "mcitstorageaccountexample" {
   account_replication_type = "GRS"
 
   tags = {
-    environment = "staging"
+    environment = "Processing"
   }
 }
